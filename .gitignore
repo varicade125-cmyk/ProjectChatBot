@@ -1,0 +1,29 @@
+# Flutter/Dart build outputs and caches
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependents
+.packages
+
+# Android signing and local config (never commit)
+local.properties
+*.jks
+*.keystore
+*.aab
+
+# Secrets — never commit API keys, tokens, or credentials
+.env
+.env.*
+*.pem
+*.p12
+google-services.json
+GoogleService-Info.plist
+
+# IDE
+.idea/
+.vscode/*
+
+# OS
+.DS_Store
+Thumbs.db
